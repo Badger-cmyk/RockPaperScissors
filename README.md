@@ -1,10 +1,22 @@
-## Rock Paper Scissors
+## Description
 
-The game asks for a user input five times(plays for five founds). And then logs the winner to the console after each round including the respective scores. After the whole game(five rounds), the final score is logged(scores are compared with an if-else block) and the winner is logged to the console
+A game of rock, paper scissors played against the computer.
 
-## Key Components
-# function to get user input
-# function to generate random choice for the computer(rock, paper or scissors)
-# function to play a single round
-# for loop to iterate the function to play a single round five times.
-# function to play the game which houses the for loop.
+* Game stops when either player reaches five points, after which the buttons to play are disabled.
+* To play again, refresh the page.
+
+## What I Learned
+* Manipulating the DOM
+
+* The importance of scopes(local and global).
+
+* Using event delegation to capture an event as it bubbles in a parent element and assign an event listener to that parent element rather than assigning multiple event listeners to elements.
+
+* Refactoring of written code(writing the code in a less redundant and verbose manner if possible).
+
+* Looping with the forEach() method.
+
+## Usage
+* Clone the repository.
+
+* Run the game on your live server(localhost).
